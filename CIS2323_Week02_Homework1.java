@@ -66,7 +66,7 @@ public class CIS2323_Week02_Homework1 {
 		System.out.println("Enter another number:");
 		people= inputDevice.nextInt();
 		
-		System.out.println("*******************************************\n"+
+		System.out.println("\n**********************************************\n"+
 		"Hello, "+ name+ ", \n"+
 		"Today We are going to make Your Signature Drink!\n"+
 		"\t\t   ____________________________\n"+
@@ -75,12 +75,12 @@ public class CIS2323_Week02_Homework1 {
 		
 		"\t\t\t How to make a "+ noun1+":\n"+
 		"What is in a " +noun1+":\n"+
-		"*	Fresh "+nounPlant+" leaves -"+oz1+" oz;\n"+
+		"*	Fresh "+nounPlant+" leaves - "+oz1+" oz;\n"+
 		"*	Fresh "+nounFruit+";\n"+
-		"*	"+nounAlco+" - "+oz2+";\n"+
-		"*	Sugar or simple syrup\n"+
-		"*	"+nounBeverage+" - "+soda+" oz\n"+"\n"+
-		"************************************************\n"+"\n"+
+		"*	"+nounAlco+" - "+oz2+" oz;\n"+
+		"*	Sugar or simple syrup;\n"+
+		"*	"+nounBeverage+" - "+soda+" oz;\n"+"\n"+
+		"**************************************************\n"+"\n"+
 
 		"We are making a "+noun1+" pitcher recipe.\n"+
 		"This should be enough to serve "+ people+" people.\n"+
