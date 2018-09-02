@@ -12,7 +12,7 @@ public class CIS2323_Week02_Homework1 {
 		// Here we declare a variable and initialize it - new - allocates memory for the variable
 		Scanner inputDevice=new Scanner(System.in); // System is object, and shows which type of device - in or out
 		
-		System.out.println("\tHello! What is your name?");
+		System.out.println("\n\tHello! What is your name?");
 		name= inputDevice.nextLine();
 		
 		System.out.println(name+"! Make up a funny noun:");
@@ -63,27 +63,30 @@ public class CIS2323_Week02_Homework1 {
 		System.out.println("Enter another number:");
 		people= inputDevice.nextInt();
 		
-		System.out.println("Hello, "+ name+ ", \n"+
+		System.out.println("*******************************************\n"+
+		"Hello, "+ name+ ", \n"+
 		"Today We are going to make Your Signature Drink!\n"+
-		"\t\t\t"+name+"\'s " + noun1 +
-		"____________________________\n"+
+		"\t\t\t____________________________\n"+
+		"\t\t\t"+"*"+name+"\'s " + noun1 +"*\n"+
+		"\t\t\t____________________________\n"+
 		
 		"\t\t\t How to make a "+ noun1+":\n"+
-		"What’s in a " +noun1+":\n"+
-		"•	Fresh "+nounPlant+" leaves – "+oz1+" oz;\n"+
-		"•	Fresh "+nounFruit+";\n"+
-		"•	"+nounAlco+" – "+oz2+";\n"+
-		"•	Sugar or simple syrup\n"+
-		"•	"+nounBeverage+" – "+soda+" oz\n"+"\n"+
+		"What is in a " +noun1+":\n"+
+		"*	Fresh "+nounPlant+" leaves -"+oz1+" oz;\n"+
+		"*	Fresh "+nounFruit+";\n"+
+		"*	"+nounAlco+" - "+oz2+";\n"+
+		"*	Sugar or simple syrup\n"+
+		"*	"+nounBeverage+" - "+soda+" oz\n"+"\n"+
+		"************************************************\n"+"\n"+
 
-		"We’re making a "+noun1+" pitcher recipe.\n"+
+		"We are making a "+noun1+" pitcher recipe.\n"+
 		"This should be enough to serve "+ people+" people.\n"+
-		"You’ll start by adding plenty of fresh "+nounPlant+" leaves to a pitcher along with some sugar and "+nounFruit+" wedges.\n"+
+		"You will start by adding plenty of fresh "+nounPlant+" leaves to a pitcher along with some sugar and "+nounFruit+" wedges.\n"+
 		verb1Action+" them together.\n"+
 		verb1Action+"ing - just means "+verb2Action+" the leaves of the "+nounPlant+" with the sugar and "+nounFruit+".\n"+
 		"Do this just until you "+verbSense+" the "+nounPlant+".\n"+
-		"Don’t over "+verb1Action+" your "+nounPlant+" or things will start to taste "+adj+".\n"+
-		"Next, you’ll just pour the "+nounBeverage+" and "+ nounAlco+" over the top and give it a "+adverb+" "+nounAction+".\n"+
+		"Do NOT over "+verb1Action+" your "+nounPlant+" or things will start to taste "+adj+".\n"+
+		"Next, you will just pour the "+nounBeverage+" and "+ nounAlco+" over the top and give it a "+adverb+" "+nounAction+".\n"+
 		"Serve these "+noun1+"s over plenty of ice and garnish with a branch of "+nounPlant+ ", if desired.\n"+
 		"Enjoy these "+noun1+"s out by the "+nounPlace+" or at a party!\n");
 		
