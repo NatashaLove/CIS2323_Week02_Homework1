@@ -4,7 +4,7 @@ public class CIS2323_Week02_Homework1 {
 	
 	public static void main (String [] args) {
 		
-		String name, noun1, nounPlant, nounFruit, nounAlco, nounBeverage, verb1Action, verb2Action, verbSense, adj, adverb, nounAction, nounPlace;
+		String name, noun1, nounPlant, nounFruit, nounAlco, nounBeverage, verb1Action, verb2Action, verb3Action, verbSense, adj, adverb, nounAction, nounPlace, nounEvent;
 		double oz1, oz2;
 		int soda, people;
 
@@ -45,11 +45,14 @@ public class CIS2323_Week02_Homework1 {
 		System.out.println("Enter an adverb:");
 		adverb= inputDevice.nextLine();
 		
-		System.out.println("Enter ACTION (noun or gerund):");
-		nounAction= inputDevice.nextLine();
+		System.out.println("Enter one more ACTION verb:");
+		verb3Action= inputDevice.nextLine();
 		
 		System.out.println("Enter a place/location :");
 		nounPlace= inputDevice.nextLine();
+		
+		System.out.println("Enter an event :");
+		nounEvent= inputDevice.nextLine();
 				
 		System.out.println("Enter a decimal in the format (ex 5.5):");
 		oz1= inputDevice.nextDouble();
@@ -66,9 +69,9 @@ public class CIS2323_Week02_Homework1 {
 		System.out.println("*******************************************\n"+
 		"Hello, "+ name+ ", \n"+
 		"Today We are going to make Your Signature Drink!\n"+
-		"\t\t\t____________________________\n"+
+		"\t\t   ____________________________\n"+
 		"\t\t\t"+"*"+name+"\'s " + noun1 +"*\n"+
-		"\t\t\t____________________________\n"+
+		"\t\t   ____________________________\n"+
 		
 		"\t\t\t How to make a "+ noun1+":\n"+
 		"What is in a " +noun1+":\n"+
@@ -86,9 +89,9 @@ public class CIS2323_Week02_Homework1 {
 		verb1Action+"ing - just means "+verb2Action+" the leaves of the "+nounPlant+" with the sugar and "+nounFruit+".\n"+
 		"Do this just until you "+verbSense+" the "+nounPlant+".\n"+
 		"Do NOT over "+verb1Action+" your "+nounPlant+" or things will start to taste "+adj+".\n"+
-		"Next, you will just pour the "+nounBeverage+" and "+ nounAlco+" over the top and give it a "+adverb+" "+nounAction+".\n"+
+		"Next, you will just pour the "+nounBeverage+" and "+ nounAlco+" over the top and "+adverb+" "+verb3Action+" it.\n"+
 		"Serve these "+noun1+"s over plenty of ice and garnish with a branch of "+nounPlant+ ", if desired.\n"+
-		"Enjoy these "+noun1+"s out by the "+nounPlace+" or at a party!\n");
+		"Enjoy these "+noun1+"s out by the "+nounPlace+" or at a "+nounEvent+"\n");
 		
 		
 	}
